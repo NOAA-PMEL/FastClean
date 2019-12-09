@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<skips>
+    <regex value=".*las.*"/>
+    <regex value=".*examples.*"/>
+    <regex value=".*Clean.*"/>
+    <regex value=".*Clean.*"/>
+    <regex value=".*his_case7_ar0fd.*"/>
+
+   <!-- SKIP ACTUAL CATALOGS TO MAKE DEBUGGING FASTER 
+          <catalog url="http://ferret.pmel.noaa.gov/thredds/carbontracker.xml"/>
+          <catalog url="http://www.ngdc.noaa.gov/thredds/catalog.xml" />
+          <catalog url="http://cwcgom.aoml.noaa.gov/thredds/catalog.xml" />
+          <catalog url="http://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/catalog.xml"/>
+          <catalog url="http://data1.gfdl.noaa.gov:8380/thredds3/catalog.xml" />
+          <catalog url="http://osmc.noaa.gov:8180/thredds/catalog.xml" />
+          <catalog url="http://ferret.pmel.noaa.gov/thredds/uaf.xml" />
+          <catalog url="http://ecowatch.ncddc.noaa.gov/thredds/catalog_ncom.xml" />
+          <catalog url="http://data.nodc.noaa.gov/thredds/catalog/testdata/ghrsst_ncml/fullAgg/catalog.xml"/> 
+          <catalog url="http://oceanwatch.pfeg.noaa.gov/thredds/catalog.xml" />
+          <catalog url="http://edac-dap3.northerngulfinstitute.org/thredds/catalog/ncom_fukushima_agg/catalog.xml" />
+          <catalog url="http://edac-dap3.northerngulfinstitute.org/thredds/catalog/ncom_sendai_agg/catalog.xml" />
+          <catalog url="http://colossus.dl.stevens-tech.edu:8080/thredds/bight_dailyrun_fmrc.xml" />
+          <catalog url="http://colossus.dl.stevens-tech.edu:8080/thredds/apex_dailyrun_fmrc.xml" />
+          <catalog url="http://tds.marine.rutgers.edu/thredds/roms/espresso/catalog.xml" />
+          <catalog url="http://geoport.whoi.edu/thredds/COAWST_catalog.xml" />
+          <catalog url="http://oos.soest.hawaii.edu/thredds/idd/ocn_mod.xml" />
+          <catalog url="http://michigan.glin.net:8080/thredds/glcfs_nowcast_catalog.xml" />
+          <catalog url="http://michigan.glin.net:8080/thredds/featurecollection.xml" />
+-->
+
+    <!-- Skip yourself -->
+    <catalog url="http://dunkel.pmel.noaa.gov:8920/thredds/catalog.xml"/>
+
+    <!-- Tidy up a few things at GFDL -->
+    <catalog url="http://data1.gfdl.noaa.gov:8380/thredds/catalog/las/catalog.xml"/>
+    <catalog url="http://data1.gfdl.noaa.gov:8380/thredds/enhancedCatalog.xml"/>
+    <catalog url="http://data1.gfdl.noaa.gov:8380/thredds/catalog/testAll/catalog.xml"/>
+
+    <!-- a remotely referenced catalog in the ncddc catalog. -->
+    <catalog url="http://data.nodc.noaa.gov/thredds/catalog/ncep/rtofs/catalog.xml"/>
+
+    <catalog url="http://www.ngdc.noaa.gov/thredds/samplesCatalog.xml"/>
+    <catalog url="https://www.ngdc.noaa.gov/thredds/enhancedCatalogWaterlevel.xml"/>
+    <catalog url="http://www.ngdc.noaa.gov/thredds/nceiTest.xml"/>
+    <catalog url="http://www.ngdc.noaa.gov/thredds/catalog/dart_bpr/rawdata/catalog.xml"/>
+    <catalog url="http://www.ngdc.noaa.gov/thredds/catalog/nos_coops/wl_1min/rawdata/catalog.xml"/>
+    <catalog url="http://www.ngdc.noaa.gov/thredds/catalog/twc/rawdata/catalog.xml"/>
+    <catalog url="http://cwcgom.aoml.noaa.gov/thredds/catalog/testBUFR/catalog.xml"/>
+    <catalog url="http://www.ngdc.noaa.gov/thredds/ngdcSamplesCatalog.xml"/>
+    <catalog url="http://www.ngdc.noaa.gov/thredds/catalog/ustec/catalog.xml"/>
+    <catalog url="http://www.ngdc.noaa.gov/thredds/ncisoExamplesCatalog.xml"/>
+
+    <!-- Extremely large catalogs that need examination and consideration before being added. -->
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/30yrEOFs/20402069/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/30yrEOFs/20102039/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/30yrEOFs/19802009/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/30yrEOFs/19501979/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/ncep.reanalysis.dailyavgs/surface_gauss/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/20yrEOFs/20302049/SST/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/20yrEOFs/20302049/SSH/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/20yrEOFs/20102029/SST/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/20yrEOFs/20102029/SSH/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/20yrEOFs/19902009/SST/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/20yrEOFs/19902009/SSH/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/20yrEOFs/19701989/SST/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/20yrEOFs/19701989/SSH/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/20yrEOFs/19501969/SST/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/20yrEOFs/19501969/SSH/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/PacificEOFs/20yrEOFs/20502069/SST/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/PacificEOFs/20yrEOFs/20502069/SSH/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/PacificEOFs/20yrEOFs/20302049/SST/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/PacificEOFs/20yrEOFs/20302049/SSH/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/PacificEOFs/20yrEOFs/20102029/SST/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/PacificEOFs/20yrEOFs/20102029/SSH/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/PacificEOFs/20yrEOFs/19902009/SST/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/PacificEOFs/20yrEOFs/19902009/SSH/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/PacificEOFs/20yrEOFs/19701989/SST/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/PacificEOFs/20yrEOFs/19701989/SSH/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/PacificEOFs/20yrEOFs/19501969/SST/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/PacificEOFs/20yrEOFs/19501969/SSH/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/20yrEOFs/20502069/SST/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/20yrEOFs/20502069/SSH/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/30yrEOFs/20402069/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/30yrEOFs/20102039/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/30yrEOFs/19802009/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/ocn/postprocessed/EOFs_21yrSmoothEnsembClim/TropicalEOFs/30yrEOFs/19501979/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/ncep.reanalysis.dailyavgs/surface_gauss/catalog.xml"/>
+
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/GFDL-CM3-LE/SOILM/WetCDF_rndmSM0_v3/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/GFDL-CM3-LE/SOILM/DroughtCDF_rndmSM0_v3/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/lnd/postprocessed/regions_clean/WetCDF_rndmSM0_v3/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/lnd/postprocessed/regions_clean/DroughtCDF_rndmSM0_v3/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/GFDL-CM3-LE/SOILM/CDFs/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/lnd/postprocessed/regions_clean/CDFs/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/lnd/postprocessed/regions_clean/WetCDF_rndmSM0/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/lnd/postprocessed/regions_clean/DroughtCDF_rndmSM0_v2/catalog.xml"/>
+    <catalog url="https://www.esrl.noaa.gov/psd/thredds/catalog/Datasets/SERDP_regimeshifts/data/CESM-LE/lnd/postprocessed/regions_clean/DroughtCDF_rndmSM0/catalog.xml"/>
+
+    <!-- has been returning a 404 for a long time, email from ngeorgas@stevens.edu says "it's gone forever". -->
+    <catalog url="http://colossus.dl.stevens-tech.edu:8080/thredds/catalog/fmrc/NYBight/fall2009/catalog.xml"/>
+
+    <!-- Some new detritus from the Rutgers site. -->
+    <catalog url="http://tds.marine.rutgers.edu/thredds/catalog/floats/catalog.xml"/>
+
+    <catalog url="http://tds.marine.rutgers.edu/thredds/catalog/roms/espresso/2013_da/avg/runs/catalog.xml"/>
+    <catalog url="http://tds.marine.rutgers.edu/thredds/catalog/roms/espresso/2013_da/avg/offset/catalog.xml"/>
+    <catalog url="http://tds.marine.rutgers.edu/thredds/catalog/roms/espresso/2013_da/avg/files/catalog.xml"/>
+
+
+    <catalog url="http://tds.marine.rutgers.edu/thredds/catalog/roms/espresso/2013_da/his/runs/catalog.xml"/>
+    <catalog url="http://tds.marine.rutgers.edu/thredds/catalog/roms/espresso/2013_da/his/offset/catalog.xml"/>
+    <catalog url="http://tds.marine.rutgers.edu/thredds/catalog/roms/espresso/2013_da/his/files/catalog.xml"/>
+
+    <!-- Unaggregated files at NOS. -->
+    <catalog url="http://opendap.co-ops.nos.noaa.gov/thredds/cbofs_catalog.xml"/>
+    <catalog url="http://opendap.co-ops.nos.noaa.gov/thredds/creofs_catalog.xml"/>
+    <catalog url="http://opendap.co-ops.nos.noaa.gov/thredds/gbofs_catalog.xml"/>
+    <catalog url="http://opendap.co-ops.nos.noaa.gov/thredds/leofs_catalog.xml"/>
+    <catalog url="http://opendap.co-ops.nos.noaa.gov/thredds/lhofs_catalog.xml"/>
+    <catalog url="http://opendap.co-ops.nos.noaa.gov/thredds/lmofs_catalog.xml"/>
+    <catalog url="http://opendap.co-ops.nos.noaa.gov/thredds/loofs_catalog.xml"/>
+    <catalog url="http://opendap.co-ops.nos.noaa.gov/thredds/lsofs_catalog.xml"/>
+    <catalog url="http://opendap.co-ops.nos.noaa.gov/thredds/nyofs_catalog.xml"/>
+    <catalog url="http://opendap.co-ops.nos.noaa.gov/thredds/ngofs_catalog.xml"/>
+    <catalog url="http://opendap.co-ops.nos.noaa.gov/thredds/sjrofs_catalog.xml"/>
+    <catalog url="http://opendap.co-ops.nos.noaa.gov/thredds/dbofs_catalog.xml"/>
+    <catalog url="http://opendap.co-ops.nos.noaa.gov/thredds/dbofs_catalog.xml"/>
+    <catalog url="http://opendap.co-ops.nos.noaa.gov/thredds/tbofs_catalog.xml"/>
+
+
+    <!-- These are the specific PFEG catalogs that are redundant or wrong.  -->
+
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/data/PMEL/WOA05nc/monthly/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/data/PMEL/COADS/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/NVODS/NOAA-CIRES-CDC-CDC_Derived_NCEP_Reanalysis_Products_Surface_Flux/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/NVODS/coads_time_series_1854_1993/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/NVODS/COADS_1-degree_Enhanced/catalog.xml"/> 
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/NVODS/COADS_1-degree_Standard/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/NVODS/NOAA-CIRES-CDC-CPC_Merged_Analysis_of_Precipitation_Enhanced/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/NVODS/NOAA-CIRES-CDC-CPC_Merged_Analysis_of_Precipitation_Standard/catalog.xml"/>
+
+
+    <!-- These are the specific PFEG catalogs we want to skip.  -->
+    <catalog url="http://nomads.ncdc.noaa.gov/thredds/OceanWinds.xml"/>
+    <catalog url="http://nomads.ncdc.noaa.gov/thredds/oisst/oisstAggs.xml"/>
+    <catalog url="http://hycom.coaps.fsu.edu/thredds/dodsC/pacific/pacific_ecmwf_simulation_catalog.xml"/>
+    <catalog url="http://hycom.coaps.fsu.edu/thredds/dodsC/global/glb_nrt_analysis_catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/geoide/geoIDECleanCatalogs/ncom_best_time_series.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/NOAA-CIRES-CDC-CDC_Derived_NCEP_Reanalysis_Products_Surface_Flux/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/coads_time_series_1854_1993/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/NOAA-CIRES-CDC-CPC_Merged_Analysis_of_Precipitation_Enhanced/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/NOAA-CIRES-CDC-CPC_Merged_Analysis_of_Precipitation_Standard/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/COADS_1-degree_Enhanced/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/COADS_1-degree_Standard/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/woa05_monthly/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/COADS_2-degree_Enhanced/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/COADS_2-degree_Standard/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/soda_pop1_4_2/catalog.xml"/>
+    <catalog url="http://sdf.ndbc.noaa.gov/thredds/catalog.xml"/>
+    <catalog url="http://sdf.ndbc.noaa.gov/thredds/catalog/hfradar/catalog.xml"/>
+    <catalog url="http://geoport.whoi.edu/thredds/bathy_catalog.xml"/>
+    <catalog url="http://las.pfeg.noaa.gov/thredds/catalog.xml"/>
+    <catalog url="http://oceanview.pfeg.noaa.gov/thredds/Model/NWS/catalog.xml"/>
+    <catalog url="http://oceanview.pfeg.noaa.gov/thredds/catalog.xml"/>
+    <catalog url="https://oceanwatch.pfeg.noaa.gov/thredds/CIMT/catalog.xml"/>
+
+
+    <catalog url="http://ferret.pmel.noaa.gov/geoide/geoIDECleanCatalogs/ncom_best_time_series.xml" />
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/NOAA-CIRES-CDC-CDC_Derived_NCEP_Reanalysis_Products_Surface_Flux/catalog.xml" />
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/coads_time_series_1854_1993/catalog.xml" />
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/NOAA-CIRES-CDC-CPC_Merged_Analysis_of_Precipitation_Enhanced/catalog.xml" />
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/NOAA-CIRES-CDC-CPC_Merged_Analysis_of_Precipitation_Standard/catalog.xml" />
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/COADS_1-degree_Enhanced/catalog.xml" />
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/COADS_1-degree_Standard/catalog.xml" />
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/woa05_monthly/catalog.xml" />
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/COADS_2-degree_Enhanced/catalog.xml" />
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/COADS_2-degree_Standard/catalog.xml" />
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/las/soda_pop1_4_2/catalog.xml" />
+
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/NVODS/coads_time_series_1854_1993/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/NVODS/COADS_1-degree_Enhanced/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/NVODS/COADS_1-degree_Standard/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/NVODS/NOAA-CIRES-CDC-CPC_Merged_Analysis_of_Precipitation_Enhanced/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/NVODS/NOAA-CIRES-CDC-CPC_Merged_Analysis_of_Precipitation_Standard/catalog.xml"/>
+    <catalog url="http://ferret.pmel.noaa.gov/thredds/catalog/NVODS/NOAA-CIRES-CDC-CDC_Derived_NCEP_Reanalysis_Products_Surface_Flux/catalog.xml"/>
+
+    <!-- bunch of unaggregated stuff -->
+    <catalog url="https://www.ngdc.noaa.gov/thredds/coastwatchCatalog.xml"/>
+    <!-- Anything named Test is suspect. -->
+    <catalog url="https://www.ngdc.noaa.gov/thredds/nceiTest.xml"/>
+
+    <!-- Seems to be missing even though some other catalog references it-->
+    <catalog url="https://ecowatch.ncddc.noaa.gov/thredds/oceanNomads/aggs/catalog_rtofs_aggs.xml"/>
+    <!-- Daily files that get skipped, but why do all that downloading... -->
+    <catalog url="https://www.ncei.noaa.gov/thredds/catalog/OisstBase/NetCDF/AVHRR/catalog.xml"/>
+    <catalog url="https://www.ncei.noaa.gov/thredds/catalog/OisstBase/NetCDF/AVHRR-AMSR/catalog.xml"/>
+
+    <!-- for debugging other things skip the process of deciding these are unaggregated. -->
+    <catalog url="https://www.ncei.noaa.gov/thredds/catalog/ncFC/fc-oisst-daily-avhrr-amsr-dly/files/catalog.xml"/>
+    <catalog url="https://data.nodc.noaa.gov/thredds/catalog/icoads/catalog.xml"/>
+    <catalog url="http://colossus.dl.stevens-tech.edu:8080/thredds/catalog/fmrc/NYBight/runs/catalog.xml"/>
+    <catalog url="http://colossus.dl.stevens-tech.edu:8080/thredds/catalog/fmrc/NYBight/offset/catalog.xml"/>
+
+    <!-- Does not skip the catalog, just removes the data sets listed.  -->
+    <catalog url="http://oceanwatch.pfeg.noaa.gov/thredds/catalog.xml">
+        <dataset name="Remotely Served Datasets" />
+        <dataset name="PaCOOS Survey Datasets" />
+        <dataset name="Channel Islands Datasets" />
+        <dataset name="Channel Islands Datasets 2007" />
+    </catalog>
+    <catalog url="http://oos.soest.hawaii.edu/thredds/catalog/hioos/model/atm/ncep_global/catalog.xml" >
+        <dataset name="Forecast Model Run Collection (2D time coordinates)" />
+    </catalog>
+    <catalog url="http://oos.soest.hawaii.edu/thredds/catalog/hioos/model/atm/ncep_pac/catalog.xml">
+        <dataset name="Forecast Model Run Collection (2D time coordinates)" />
+    </catalog>
+    <catalog url="http://oos.soest.hawaii.edu/thredds/catalog/hioos/model/atm/wrf_hi/catalog.xml">
+        <dataset name="Forecast Model Run Collection (2D time coordinates)" />
+    </catalog>
+    <catalog url="http://oos.soest.hawaii.edu/thredds/catalog/hioos/model/atm/wrf_mo/catalog.xml">
+        <dataset name="Forecast Model Run Collection (2D time coordinates)" />
+    </catalog>
+    <catalog url="http://oos.soest.hawaii.edu/thredds/catalog/hioos/model/atm/wrf_oa/catalog.xml">
+        <dataset name="Forecast Model Run Collection (2D time coordinates)" />
+    </catalog>
+    <catalog url="http://oos.soest.hawaii.edu/thredds/catalog/hioos/model/atm/wrf_cnmi/catalog.xml">
+        <dataset name="Forecast Model Run Collection (2D time coordinates)" />
+    </catalog>
+    <catalog url="http://oos.soest.hawaii.edu/thredds/catalog/hioos/model/atm/wrf_guam/catalog.xml">
+        <dataset name="Forecast Model Run Collection (2D time coordinates)" />
+    </catalog>
+    <catalog url="http://oos.soest.hawaii.edu/thredds/catalog/hioos/model/atm/wrf_samoa/catalog.xml">
+        <dataset name="Forecast Model Run Collection (2D time coordinates)" />
+    </catalog>
+</skips>
+
+
